@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "functional": "cpp",
-        "*.inc": "cpp",
-        "coroutine": "cpp",
-        "type_traits": "cpp"
-    }
-}

@@ -1,3 +1,0 @@
-/home/apalmate/Software/qt6/cmake-build-debug/config.tests/separate_debug_info/CMakeFiles/objcopytest.dir
-/home/apalmate/Software/qt6/cmake-build-debug/config.tests/separate_debug_info/CMakeFiles/edit_cache.dir
-/home/apalmate/Software/qt6/cmake-build-debug/config.tests/separate_debug_info/CMakeFiles/rebuild_cache.dir
