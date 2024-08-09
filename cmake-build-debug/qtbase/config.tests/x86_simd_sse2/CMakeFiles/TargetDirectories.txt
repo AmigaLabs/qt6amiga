@@ -1,0 +1,3 @@
+/home/apalmate/Software/qt6/cmake-build-debug/qtbase/config.tests/x86_simd_sse2/CMakeFiles/SimdTestsse2.dir
+/home/apalmate/Software/qt6/cmake-build-debug/qtbase/config.tests/x86_simd_sse2/CMakeFiles/edit_cache.dir
+/home/apalmate/Software/qt6/cmake-build-debug/qtbase/config.tests/x86_simd_sse2/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+# ninja log v5
+0	8	1715165114003242996	CMakeFiles/lib1.dir/lib1.cpp.o	2a1c241f5b997510
+8	19	1715165114011242907	liblib1.so	2962c0de8912939e
+19	20	0	CMakeFiles/print_lib_path	7db19e69fa3936ec
+19	20	0	/home/apalmate/Software/qt6/cmake-build-debug/qtbase/config.tests/binary_for_strip_built/CMakeFiles/print_lib_path	7db19e69fa3936ec

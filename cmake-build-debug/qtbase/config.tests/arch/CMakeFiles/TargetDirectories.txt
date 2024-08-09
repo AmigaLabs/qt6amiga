@@ -1,0 +1,3 @@
+/home/apalmate/Software/qt6/cmake-build-debug/qtbase/config.tests/arch/CMakeFiles/architecture_test.dir
+/home/apalmate/Software/qt6/cmake-build-debug/qtbase/config.tests/arch/CMakeFiles/edit_cache.dir
+/home/apalmate/Software/qt6/cmake-build-debug/qtbase/config.tests/arch/CMakeFiles/rebuild_cache.dir

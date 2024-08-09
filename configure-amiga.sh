@@ -2,8 +2,10 @@ cmake \
 -DCMAKE_FIND_ROOT_PATH="/usr/ppc-amigaos/SDK/local/clib4/lib" \
 -DCMAKE_TOOLCHAIN_FILE="/usr/ppc-amigaos/bin/cmake.ppc-amigaos" \
 -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY \
--DCMAKE_MAKE_PROGRAM="make" \
--DCMAKE_EXE_LINKER_FLAGS="-use-dynld -logles2 -latomic -lauto" \
+-DCMAKE_EXE_LINKER_FLAGS="-use-dynld -logles2 -latomic" \
+-DCMAKE_MODULE_LINKER_FLAGS="-Wl,-rpath-link,/qt6/lib" \
+-DCMAKE_SHARED_LINKER_FLAGS="-Wl,-rpath-link,/qt6/lib" \
+-DEXTRA_LIBS="libauto.a" \
 -DUNIX=1 \
 -DAMIGA=1 \
 -DCMAKE_INSTALL_PREFIX="/qt6" \
@@ -13,7 +15,6 @@ cmake \
 -DQT_FEATURE_thread=ON \
 -DQT_FEATURE_network=ON \
 -DQT_FEATURE_ssl=ON \
--DQT_FEATURE_dbus=OFF \
 -DQT_FEATURE_opengl=ON \
 -DQT_FEATURE_opengles2=ON \
 -DQT_FEATURE_openssl=ON \
@@ -25,6 +26,7 @@ cmake \
 -DQT_FEATURE_process=ON \
 -DQT_FEATURE_processenvironment=ON \
 -DQT_FEATURE_systemsemaphore=ON \
+-DBUILD_SHARED_LIBS=ON \
 -DQT_BUILD_TOOLS_WHEN_CROSSCOMPILING=ON \
 ..
 

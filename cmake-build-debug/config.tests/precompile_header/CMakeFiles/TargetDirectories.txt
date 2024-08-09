@@ -1,0 +1,3 @@
+/home/apalmate/Software/qt6/cmake-build-debug/config.tests/precompile_header/CMakeFiles/precompile_header.dir
+/home/apalmate/Software/qt6/cmake-build-debug/config.tests/precompile_header/CMakeFiles/edit_cache.dir
+/home/apalmate/Software/qt6/cmake-build-debug/config.tests/precompile_header/CMakeFiles/rebuild_cache.dir
